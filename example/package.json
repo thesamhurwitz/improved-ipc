@@ -1,0 +1,17 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && electron ./dist/main.js"
+  },
+  "dependencies": {
+    "electron": "^15.3.0",
+    "improved-ipc": "file:../"
+  },
+  "devDependencies": {
+    "typescript": "^4.4.4"
+  }
+}
