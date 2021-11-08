@@ -9,7 +9,7 @@
   ],
   "scripts": {
     "build": "tsc",
-    "prepare": "yarn build"
+    "prepare": "npm run build"
   },
   "author": "Sam Hurwitz",
   "license": "MIT",
